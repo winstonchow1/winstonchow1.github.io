@@ -1,0 +1,161 @@
+/* final project CSS */
+
+header {
+  color: black;
+  height: 0px
+
+}
+
+body {
+  background-color: black;
+  align-content: center;
+  color: white;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.section1 {
+  color: white;
+}
+
+/*subtitle{
+  font-size: 3rem;
+*/
+
+.text-overlay-jumbotron h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: monospace;
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 1;
+}
+
+/* .section h2 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Cookie";
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.7;
+} */
+
+/* .video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+} */
+
+video {
+  flex-grow: 1;
+}
+
+#skynet {
+  position: relative;
+  left: 0;
+  text-align: center;
+  font-size: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 200px;
+  background-color: white;
+  color: black;
+}
+
+#skynet-sub {
+  text-align: center;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+  background-color: white;
+  color: black;
+}
+
+.main {
+  text-align: center;
+  font-size: 5rem;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.content {
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.pics {
+  text-align: center;
+}
+
+.pics img {
+  border-radius: 100%;
+}
+
+.subjects {
+  background-color: black;
+  display: flex;
+  height: 500px;  
+}
+.subjects p {
+  overflow: scroll;
+  height: 100%;
+}
+
+.subjects img {
+  height: 100%;
+}
+
+/* .background-video-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.background-video{
+z-index: -1;
+}
+
+
+.jumbotron video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.jumbotron {
+  padding:0;
+  margin-bottom: 0;
+  color: inherit;
+  background-color: #eee;
+  height: fit-content;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron .container{
+  position: absolute;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+}
+
+aside {
+  position: fixed;
+}
+
+
